@@ -1,14 +1,22 @@
 {
-    "name": "Poly",
-    "description": "Amber Application.",
-    "version": "0.9.1",
+    "name": "poly",
+    "description": "A sample with physics",
+    "version": "0.1.0",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "/test_runner.js",
+        "test",
+        "tests"
+    ],
     "authors": [
         {
-            "name": "Sebastian Sastre",
-            "email": "sebastian@flowingconcept.com"
+            "name": "Philippe Back",
+            "email": "phil@highoctane.be"
         }
     ],
-    "homepage": "https://github.com/sebastian/poly",
+    "homepage": "https://github.com/philippeback/poly",
     "keywords": [
         "Amber",
         "Smalltalk"
@@ -18,7 +26,10 @@
     ],
     "private": false,
     "dependencies": {
-        "PhysicsJS": "0.5.3-alpha",
-        "amber": "^0.12.4"
+        "amber": "^0.13.0",
+	"PhysicsJS": "^0.5.3-alpha"
+    },
+    "devDependencies": {
+        "helios": "^0.1.1"
     }
 }
